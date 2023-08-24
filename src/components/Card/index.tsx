@@ -36,7 +36,7 @@ const Card: FC<Props> = ({
         <div
           className=" shrink-0"
         >
-          <Image src={imgSrc} alt="card" priority  objectFit="cover" height={300} width={320}/>
+          <Image src={imgSrc} alt="card" height={300} width={320}/>
         </div>
 
         <div className="flex flex-col gap-4 p-4">
