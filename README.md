@@ -13,6 +13,28 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
+## Branch
+
+Branch has no any Ladle 's config: ```main```
+
+Branch has Ladle 's config: ```ladle/add-config```
+
+Branch has Ladle 's config and Ladle 's stories for demo:  ```ladle/add-story```
+
+
+## Ladle Environment
+
+To run Ladle in the development server: 
+
+```bash
+yarn ladle
+```
+
+To build Ladle 's stories to static:
+
+```bash
+yarn ladle:build
+```
 
 ## Learn More
 
