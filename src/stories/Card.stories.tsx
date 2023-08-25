@@ -38,7 +38,7 @@ export const CardStories: Story<Props> = ({
   description,
 }) => {
   return (
-    <Card imgSrc={image} type={type} title={title} description={description}  />
+    <Card imgSrc={image} type={type} title={title} description={description} />
   );
 };
 
